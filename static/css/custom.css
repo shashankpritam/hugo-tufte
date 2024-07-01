@@ -1,0 +1,127 @@
+/* Base element styles */
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+    
+}
+
+header, main, footer {
+    max-width: 55%;
+    margin-left: 12.5%;
+    margin-right: 12.5%; /* Ensures center alignment by balancing left and right margins */
+    position: relative;
+}
+
+header {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+/* Margin notes styles */
+.marginnote {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.marginnote img, .marginnote table {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.marginnote table {
+    border-collapse: collapse;
+}
+
+.marginnote table th, .marginnote table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.marginnote table th {
+    background-color: #607D8B; /* Blue-grey color */
+    color: #ffffff; /* White text for better visibility */
+}
+
+.MathJax, .MathJax_Display {
+    overflow-x: auto; /* Allows horizontal scrolling */
+    overflow-y: hidden; /* Prevents vertical scrolling */
+    max-width: 100%;
+}
+
+/* Code block and pre formatting */
+pre, code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9em;
+    background-color: inherit;  /* Ensures background matches the parent */
+    overflow-x: visible;  /* Allows horizontal scrolling if content exceeds the element width */
+    white-space: nowrap;  /* Prevents code from wrapping to the next line */
+    word-break: keep-all;  /* Prevents breaking words at line ends */
+    border-radius: 1px;
+    padding: 0.5em;  /* Sufficient padding without causing shrinkage */
+    border: 1px solid #ddd;  /* Consistent border to visually define the code block */
+    box-sizing: border-box;  /* Includes padding and border in the element's total width/height */
+}
+
+/* Adjusting specific settings for nested code elements if necessary */
+pre code {
+    overflow-x: inherit;  /* Ensures nested code elements inherit overflow behavior */
+    padding: 0;  /* No extra padding inside nested code elements */
+    background-color: transparent;  /* Keeps background consistent */
+    border: none;  /* No extra borders inside nested elements */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 1130px) {
+    header, main, footer, .marginnote {
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: none;
+        display: block;
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 0.5em;
+    }
+
+    header, footer {
+        text-align: left;
+    }
+}
+

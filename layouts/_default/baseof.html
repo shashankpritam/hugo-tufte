@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ "css/tufte.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+    {{ partial "custom_head.html" . }}
+</head>
+<body>
+    <header>
+        <h1>{{ .Site.Title }}</h1>
+        {{ partial "nav.html" . }}
+    </header>
+    <main>
+        <article>
+            {{ if not .IsHome }}<h1>{{ .Title }}</h1>{{ end }}
+            {{ block "main" . }}{{ end }}
+        </article>
+    </main>
+    <footer>
+        {{ partial "footer.html" . }}
+    </footer>
+    {{ partial "custom_body.html" . }}
+</body>
+</html>

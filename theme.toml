@@ -1,0 +1,14 @@
+name = "hugo-tufte"
+license = "MIT"
+licenselink = "https://github.com/shashankpritam/hugo-tufte/blob/master/LICENSE"
+description = "A Hugo theme in the style of Edward Tufte"
+
+[author]
+  name = "Shashank Pritam"
+  homepage = "https://shashankpritam.github.io"
+
+# Credits for CSS
+[original]
+  name = "Edward Tufte"
+  homepage = "https://edwardtufte.github.io/tufte-css/"
+  repo = "https://github.com/edwardtufte/tufte-css"

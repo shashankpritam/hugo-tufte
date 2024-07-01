@@ -1,0 +1,8 @@
+<!-- layouts/taxonomy/tag.html -->
+<h1>Posts Tagged: {{ .Title }}</h1>
+<ul>
+    {{ range .Data.Pages }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+
