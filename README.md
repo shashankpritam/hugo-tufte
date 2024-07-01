@@ -61,11 +61,7 @@ To streamline and clarify the **Usage** section of your README and tidy up the c
 
 ## Usage
 
----
-
-## Installation and Updates
-
-### Quick Start
+### Installation and Updates: Quick Start
 
 1. **Download the Theme**:
    - Navigate to the [theme repository](https://github.com/shashankpritam/hugo-tufte/tree/main).
