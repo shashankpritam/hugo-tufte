@@ -76,8 +76,3 @@ SOFTWARE.
 ## Finally
 
 If you find this project helpful, a nod, wink, or tip of the hat is appreciated but not required. If it breaks, remember – it’s not a bug, it’s a feature!
-
-Happy tinkering!
-```
-
-This README provides a clear description of your project structure, usage guidelines, and legal information, all while maintaining a light-hearted tone. Adjust the content as necessary to better fit your project’s specifics or personal style!
