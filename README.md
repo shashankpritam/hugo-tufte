@@ -8,6 +8,7 @@ This project makes use of several key resources and is inspired by the work and 
 - **[Tufte CSS](https://github.com/edwardtufte/tufte-css)**: For the elegant and practical CSS inspired by Edward Tufte’s principles of information design. The aesthetic of this project owes much to these styles.
 - **[Hugo](https://gohugo.io/)**: As the powerful and flexible static site generator that brings this project to life, Hugo's speed and efficiency are indispensable.
 - **[Hugo Bearblog](https://themes.gohugo.io/themes/hugo-bearblog/)**: For inspiration in minimalist design and functionality, which has greatly influenced the development of this project.
+- ** ChatGPT 4, Claude Sonnet 3.5 **
 
 Each of these projects represents significant efforts by their contributors and maintainers. Feel free to explore the linked resources to learn more about these projects and perhaps incorporate some of their ideas into your own work.
 
