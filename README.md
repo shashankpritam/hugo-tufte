@@ -61,6 +61,58 @@ To streamline and clarify the **Usage** section of your README and tidy up the c
 
 ## Usage
 
+---
+
+## Installation and Updates
+
+### Quick Start
+
+1. **Download the Theme**:
+   - Navigate to the [theme repository](https://github.com/shashankpritam/hugo-tufte/tree/main).
+   - Click on the `Code` button and select "Download ZIP".
+   - Extract the ZIP file and place the folder in the `themes` directory of your Hugo site.
+
+2. **Configure Your Site**:
+   - Open your `hugo.toml` file and ensure it is configured to use the theme. Here’s a basic example of what the configuration might look like:
+
+   ```toml
+   baseURL = 'https://yourdomain.com'
+   languageCode = 'en-us'
+   title = 'My Blog'
+   theme = 'hugo-tufte'
+   ```
+
+   - Replace the `baseURL`, `title`, and other settings as necessary to match your site’s details.
+
+### Keeping Your Theme Updated
+
+If you want to keep your theme up to date with the latest changes, consider using a Git submodule. This allows you to easily update the theme by pulling in the latest changes from the source repository.
+
+- **Add the Theme as a Submodule**:
+
+  ```bash
+  git submodule add https://github.com/shashankpritam/hugo-tufte.git themes/hugo-tufte
+  git submodule update --init --recursive
+  ```
+
+- **Update the Theme**:
+
+  When updates are made to the original theme, you can update your theme submodule using:
+
+  ```bash
+  git submodule update --remote --merge
+  ```
+
+This method ensures that your theme stays up-to-date with any improvements or bug fixes made to the source theme.
+
+### Features:
+
+- **Math Support**: Includes built-in support for rendering mathematical expressions.
+- **Diagram Support via Mermaid**: Just add the necessary Mermaid JS link in `custom_head.html` to enable beautiful diagram visualizations.
+- **Extended Shortcodes**: Utilize shortcodes for side lists, side tables, side images, side citations, and even side dishes (metaphorically speaking).
+
+---
+
 Feel free to use, modify, and run this project wherever and however you see fit. Whether you're powering a small blog or launching it on a toaster to run Doom, the sky's the limit (though not legally binding). No credit is required, wanted, or cared about—live your best anonymous life!
 
 **Note**: Yes, there are redundancies, and I'll attempt to address these. Feel free to submit a PR if you have improvements or fixes to suggest.
@@ -95,12 +147,6 @@ theme = 'hugo-tufte'
     url = "/current/"
     weight = 3
 ```
-
-### Features:
-
-- **Math Support**: Includes built-in support for rendering mathematical expressions.
-- **Diagram Support via Mermaid**: Just add the necessary Mermaid JS link in `custom_head.html` to enable beautiful diagram visualizations.
-- **Extended Shortcodes**: Utilize shortcodes for side lists, side tables, side images, side citations, and even side dishes (metaphorically speaking).
 
 
 ## License
