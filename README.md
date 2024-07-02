@@ -10,6 +10,7 @@ Special thanks to:
 - **[Hugo Bearblog](https://themes.gohugo.io/themes/hugo-bearblog/)**: For inspiration in minimalist design and functionality, which has greatly influenced the development of this project.
 - [jqMath](https://mathscribe.com/author/jqmath.html): For Math support.
 - **ChatGPT 4, Claude 3.5 Sonnet**
+- As of now, please use external tools like Graphviz or D2lang for generating diagrams and embed as a image file. Hugo has no inbuilt support for diagram libs such as Mermaid. Of course, you can download any min.js and link it to the header html.
 
 Each of these projects represents significant efforts by their contributors and maintainers. Feel free to explore the linked resources to learn more about these projects and perhaps incorporate some of their ideas into your own work.
 
