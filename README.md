@@ -56,13 +56,13 @@ This method ensures that your theme stays up-to-date with any improvements or bu
 ### Features:
 
 - **Math Support**: Includes built-in support for rendering mathematical expressions thanks to jqMath.
-- **Diagram Support via Mermaid**: Just add the necessary Mermaid JS link in `custom_head.html` to enable beautiful diagram visualizations.
 - **Extended Shortcodes**: Utilize shortcodes for side lists, side tables, side images, side citations, and even side dishes (metaphorically speaking).
+- **Diagram Support via Mermaid**: Just add the necessary Mermaid JS link in `custom_head.html` to enable beautiful diagram visualizations.
 
 
-### Incorporating Diagrams 
+#### Incorporating Diagrams 
 
-Hugo does not provide built-in support for diagram libraries like Mermaid. To include diagrams in your Hugo site, you can:
+>  Hugo does not provide built-in support for diagram libraries like Mermaid. To include diagrams in your Hugo site, you can:
 
 1. **Generate Diagrams Externally**: Use tools like Graphviz or D2lang to create your diagrams. Save these diagrams as image files.
 
