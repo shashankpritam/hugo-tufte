@@ -1,5 +1,5 @@
-# Project README
-Welcome to this incredibly versatile and potentially over-engineered project. If you've ever wanted to tweak, twist, or tinker with something until it either becomes something magnificent or breaks spectacularly, you're in the right place!
+
+Welcome to this incredibly versatile and potentially under-engineered project. If you've ever wanted to tweak, twist, or tinker with something until it either becomes something magnificent or breaks spectacularly, you're in the right place!
 
 ## Credits and Acknowledgments
 
@@ -118,7 +118,7 @@ Here’s how the ideal `hugo.toml` should look to work seamlessly with this them
 ```toml
 baseURL = 'https://yourprecious.site'
 languageCode = 'en-us'
-title = 'Blogs and Stuff'
+title = 'Fanstastic Title'
 theme = 'hugo-tufte'
 
 [markup]
