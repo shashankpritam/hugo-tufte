@@ -9,11 +9,7 @@ Special thanks to:
 - **[Hugo](https://gohugo.io/)**: As the powerful and flexible static site generator that brings this project to life, Hugo's speed and efficiency are indispensable.
 - **[Hugo Bearblog](https://themes.gohugo.io/themes/hugo-bearblog/)**: For inspiration in minimalist design and functionality, which has greatly influenced the development of this project.
 - [jqMath](https://mathscribe.com/author/jqmath.html): For Math support.
-- **ChatGPT 4, Claude 3.5 Sonnet**
-- As of now, please use external tools like Graphviz or D2lang for generating diagrams and embed as a image file. Hugo has no inbuilt support for diagram libs such as Mermaid. Of course, you can download any min.js and link it to the header html.
-
-Each of these projects represents significant efforts by their contributors and maintainers. Feel free to explore the linked resources to learn more about these projects and perhaps incorporate some of their ideas into your own work.
-
+- **ChatGPT 4, Claude 3.5 Sonnet**.
 
 ## Usage
 
@@ -62,6 +58,25 @@ This method ensures that your theme stays up-to-date with any improvements or bu
 - **Math Support**: Includes built-in support for rendering mathematical expressions thanks to jqMath.
 - **Diagram Support via Mermaid**: Just add the necessary Mermaid JS link in `custom_head.html` to enable beautiful diagram visualizations.
 - **Extended Shortcodes**: Utilize shortcodes for side lists, side tables, side images, side citations, and even side dishes (metaphorically speaking).
+
+
+### Incorporating Diagrams 
+
+Hugo does not provide built-in support for diagram libraries like Mermaid. To include diagrams in your Hugo site, you can:
+
+1. **Generate Diagrams Externally**: Use tools like Graphviz or D2lang to create your diagrams. Save these diagrams as image files.
+
+2. **Embed Diagrams as Images**: Upload the image files to your Hugo site's static assets directory. Then, reference these images in your Markdown or HTML files like so:
+   ```markdown
+   ![Alt text for diagram](/path/to/diagram.png)
+   ```
+
+3. **Using JavaScript Libraries**: If you prefer interactive diagrams or need features not available in static images, you can integrate JavaScript libraries such as Mermaid. To do this:
+   - Download the `.min.js` file for the library.
+   - Add a link to the script in your site’s HTML header. You can modify the `head.html` partial in your Hugo layouts if it exists or create a new one under `layouts/partials/` and include it in your base template. Here’s an example of how to link the Mermaid library:
+     ```html
+     <script src="/path/to/mermaid.min.js"></script>
+     ```
 
 ---
 
