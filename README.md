@@ -3,61 +3,16 @@ Welcome to this incredibly versatile and potentially under-engineered project. I
 
 ## Credits and Acknowledgments
 
-This project makes use of several key resources and is inspired by the work and creativity of many in the open-source community. Special thanks to:
+Special thanks to:
 
 - **[Tufte CSS](https://github.com/edwardtufte/tufte-css)**: For the elegant and practical CSS inspired by Edward Tufte’s principles of information design. The aesthetic of this project owes much to these styles.
 - **[Hugo](https://gohugo.io/)**: As the powerful and flexible static site generator that brings this project to life, Hugo's speed and efficiency are indispensable.
 - **[Hugo Bearblog](https://themes.gohugo.io/themes/hugo-bearblog/)**: For inspiration in minimalist design and functionality, which has greatly influenced the development of this project.
+- [jqMath](https://mathscribe.com/author/jqmath.html): For Math support.
 - **ChatGPT 4, Claude 3.5 Sonnet**
 
 Each of these projects represents significant efforts by their contributors and maintainers. Feel free to explore the linked resources to learn more about these projects and perhaps incorporate some of their ideas into your own work.
 
-
-## Structure
-
-```
-.
-├── layouts
-│   ├── 404.html
-│   ├── _default
-│   │   ├── baseof.html
-│   │   ├── list.html
-│   │   └── single.html
-│   ├── blog
-│   │   └── list.html
-│   ├── index.html
-│   ├── partials
-│   │   ├── custom_body.html
-│   │   ├── custom_head.html
-│   │   ├── favicon.html
-│   │   ├── footer.html
-│   │   ├── header.html
-│   │   ├── nav.html
-│   │   └── style.html
-│   ├── robots.txt
-│   ├── shortcodes
-│   │   ├── marginnote.html
-│   │   ├── sidecitation.html
-│   │   ├── sideimage.html
-│   │   ├── sidelink.html
-│   │   ├── sidelist.html
-│   │   ├── sidenote.html
-│   │   └── sidetable.html
-│   └── taxonomy
-│       └── tag.html
-├── sitemap.py
-├── static
-│   └── css
-│       ├── custom.css
-│       └── tufte.css
-└── theme.toml
-
-9 directories, 26 files
-```
-
-To streamline and clarify the **Usage** section of your README and tidy up the configuration example for `hugo.toml`, here’s a revised and polished version:
-
----
 
 ## Usage
 
@@ -103,7 +58,7 @@ This method ensures that your theme stays up-to-date with any improvements or bu
 
 ### Features:
 
-- **Math Support**: Includes built-in support for rendering mathematical expressions.
+- **Math Support**: Includes built-in support for rendering mathematical expressions thanks to jqMath.
 - **Diagram Support via Mermaid**: Just add the necessary Mermaid JS link in `custom_head.html` to enable beautiful diagram visualizations.
 - **Extended Shortcodes**: Utilize shortcodes for side lists, side tables, side images, side citations, and even side dishes (metaphorically speaking).
 
